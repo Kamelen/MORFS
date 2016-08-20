@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ARFF">
+      <UniqueIdentifier>{110a4a9a-121f-4bbb-8d0b-e26307deef88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Explorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_attr.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_data.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_instance.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_lexer.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_parser.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_scanner.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_token.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_utils.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="arff_value.cpp">
+      <Filter>ARFF</Filter>
+    </ClCompile>
+    <ClCompile Include="SORandomForests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSingleMSE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MORandomForests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMultiMSE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMultiCVCL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Explorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPredictor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITreeClassifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_attr.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_data.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_instance.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_lexer.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_parser.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_scanner.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_token.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_utils.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="arff_value.h">
+      <Filter>ARFF</Filter>
+    </ClInclude>
+    <ClInclude Include="SORandomForests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSingleMSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MORandomForests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMultiMSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMultiCVCL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
