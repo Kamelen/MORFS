@@ -1,6 +1,6 @@
 package morfsengine
 
-import morfsengine.Dataset.Dataset
+import morfsengine.Dataset._
 
 /**
  * Created by epenerk on 8/21/16.
