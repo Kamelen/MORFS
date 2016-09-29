@@ -1,4 +1,4 @@
-name := "basic-project"
+name := "morfsengine-project"
 
 organization := "example"
 
@@ -12,5 +12,7 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.1" % "test",
   "org.scalacheck" %% "scalacheck" % "1.11.5" % "test"
 )
+
+mainClass in (Compile, run) := Some("morfsengine.main")
 
 initialCommands := "import example._"

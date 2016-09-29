@@ -1,9 +1,8 @@
-package example
+package morfsengine
 
-object App extends App{
-
-  print("Hello basic-project!")
-
+object main extends App{
+  val dataset = DataLoader.getDatasetFromCsvFile("test.csv")
+  print(dataset.toString)
 }
 
 //TODO : Dataset(Set of Sample's) representation

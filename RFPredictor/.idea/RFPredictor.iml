@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_token.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Node.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/SORandomForests.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/DataLoader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Tree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/RandomMultiCVCL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_value.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Node.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/MORandomForests.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/RandomSingleMSE.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_lexer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_scanner.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_lexer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/DataLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_data.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Explorer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/RandomMultiMSE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Utils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/RandomMultiCVCL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/ITreeClassifier.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_attr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_instance.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/RandomMultiMSE.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_parser.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/MORandomForests.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_instance.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Tree.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_scanner.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_token.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Explorer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_utils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_parser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/RandomSingleMSE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_attr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/SORandomForests.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/arff_value.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/Utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/IPredictor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RFPredictor/ISplitter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
