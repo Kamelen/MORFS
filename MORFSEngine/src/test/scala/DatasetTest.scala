@@ -8,7 +8,6 @@ class DatasetTest extends FlatSpec with Matchers{
   trait exampleData {
     val exampleInstance = Instance(Vector(5, 5))
     val dataset = Dataset.builder() labeled List("lable1", "lable2") whereTargetsAre Seq(2) addInstance  exampleInstance addInstance  exampleInstance build()
-
   }
 
 

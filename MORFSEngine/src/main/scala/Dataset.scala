@@ -44,7 +44,7 @@ class DatasetBuilder {
   def labeled(lables: List[String]) = {theLables = Some(lables); this} /* returning this to enable method chaining. */
   def whereTargetsAre(targets: Seq[Int]) = {theTargets = Some(targets); this}
   def addInstance(instance: Instance) = {theInstances = instance :: theInstances; this}
-  def >>(instance: Instance) = {theInstances = instance :: theInstances; this}
+  def ::(instance: Instance) = {addInstance(instance)}
 
   def build() = Dataset(theLables.get, theTargets.get, theInstances);
 }
